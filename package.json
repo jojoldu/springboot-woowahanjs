@@ -1,0 +1,36 @@
+{
+  "name": "springboot-woowahanjs",
+  "version": "1.0.0",
+  "description": "spring boot and woowahanjs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/webpack/bin/webpack.js"
+  },
+  "dependencies": {
+    "woowahan": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojoldu/springboot-woowahanjs.git"
+  },
+  "keywords": [
+    "springboot",
+    "spring",
+    "woowahanjs",
+    "baemin"
+  ],
+  "author": "jojoldu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jojoldu/springboot-woowahanjs/issues"
+  },
+  "homepage": "https://github.com/jojoldu/springboot-woowahanjs#readme"
+}
