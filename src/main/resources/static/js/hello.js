@@ -10,9 +10,11 @@ const Main = Woowahan.View.create('Main', {
     template: '<h1>Hello, WoowahanJs</h1>'
 });
 
-const app = Woowahan();
+global.$ = global.jQuery = Woowahan.$;
+
+const app = new Woowahan();
 
 app.start({
-    url:'/', container: 'body', view: Main
+    url:'/', container: '#content', view: Main
 });
 
